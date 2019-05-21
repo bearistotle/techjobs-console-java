@@ -53,8 +53,9 @@ public class JobData {
 
         // load data, if not already loaded
         loadData();
+        ArrayList<HashMap<String, String>> allJobsCopy = new ArrayList<>(allJobs);
 
-        return allJobs;
+        return allJobsCopy;
     }
 
     /**
